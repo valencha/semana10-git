@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,800,800i');
+
 *{
     padding: 0;
     margin: 0;
@@ -12,4 +14,34 @@ body{
 .App{
     width: 100%;
     height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    background-color: rgb(245, 245, 245);
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+
+        color: rgb(25, 25, 25);
+
+        font-weight: 800;
+        font-style: italic;
+
+        margin-bottom: 25px;
+    }
+
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+
+        color: rgb(120, 120, 120);
+        font-weight: 400;
+    }
 }
